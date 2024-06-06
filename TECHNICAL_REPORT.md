@@ -15,6 +15,7 @@ The database schema consists of the following tables:
     - `username`: String, the username of the user.
     - `email`: String, the email address of the user.
     - `password`: String, the hashed password of the user.
+    - `wallet_id`: String, the wallet ID of the user.
     - `is_admin`: Boolean, indicates if the user is an admin.
     - Timestamps for creation and updates.
 
@@ -104,4 +105,4 @@ All inputs are validated to ensure they meet the required criteria, such as vali
 
 ## Conclusion
 
-The wallet system was designed with a focus on security, robustness, and ease of use. The decisions taken during the design and implementation phases ensure the system can handle concurrent operations safely, prevent financial frauds, and maintain data integrity. Laravel's rich feature set and extensive ecosystem greatly facilitated the development process, providing built-in support for many required functionalities.
+The wallet system was designed with a focus on security, robustness, and ease of use. The decisions taken during the design and implementation phases ensure the system can handle concurrent operations safely, prevent financial frauds, and maintain data integrity.
